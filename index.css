@@ -1,0 +1,35 @@
+.flyv {
+  animation-name: flyv_kf;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes flyv_kf {
+  0% {
+    transform: translateX(-150%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.flyv_2 {
+  animation-name: flyv_2_kf;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes flyv_2_kf {
+  0% {
+    transform: translateX(150%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
