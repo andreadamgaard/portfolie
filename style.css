@@ -147,6 +147,9 @@ nav {
   nav.active .menu a {
     font-size: 24px;
   }
+  .logo img {
+    height: 70px;
+  }
 }
 
 /**********************TEXT****************************/
@@ -184,13 +187,6 @@ h2 {
   font-size: 8rem;
   color: transparent;
   -webkit-text-stroke: 4px var(--primary);
-}
-
-ommig {
-  font-family: "miedingerw01-boldregular";
-  font-size: 4rem;
-  color: transparent;
-  -webkit-text-stroke: 3px var(--primary);
 }
 #a {
   margin: 9% 0% -2.3% 3%;
