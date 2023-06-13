@@ -36,6 +36,13 @@ p {
   line-height: 1.5;
 }
 
+footer {
+  padding-top: 5%;
+  padding-left: 9%;
+  font-family: "miedingerw01-boldregular", sans-serif;
+  font-size: 0.5rem;
+  color: var(--primary);
+}
 /**********************MENU****************************/
 header {
   display: flex;
