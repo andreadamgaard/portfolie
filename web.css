@@ -22,11 +22,16 @@ h3 {
   width: 100%;
 }
 
+.web_com2 {
+  width: 70%;
+  padding: 0% 0% 0% 15%;
+}
+
 .header_link {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  width: 90%;
+  width: 100%;
   background-color: transparent;
 }
 
@@ -38,7 +43,7 @@ h3 {
   text-decoration: none;
   border: 2px solid var(--secondary);
   padding: 10px 20px 10px 20px;
-  margin: 8% 2% 7% 0%;
+  margin: 6% 1% 6% 0%;
   transition: all 0.55s ease;
 }
 
@@ -69,6 +74,7 @@ h3 {
     font-family: eurostile_lt_stddemi_oblique;
     color: var(--primary);
     font-size: 1.5rem;
+    inline-size: 100px;
   }
 
   .web_mobil {
@@ -82,19 +88,21 @@ h3 {
     display: flex;
     justify-content: space-between;
     padding: 0;
-    width: 90%;
+    width: 95%;
     background-color: transparent;
   }
 
   .header_link a {
     font-family: miedingerw01-boldregular;
     font-size: 0.8rem;
-    color: var(--primary);
     text-decoration: none;
     border: 2px solid var(--secondary);
-
+    font-weight: 100;
     padding: 10px 20px 10px 20px;
     margin: 8% 2% 7% 0%;
     transition: all 0.55s ease;
+  }
+  #link_ux {
+    margin: 13% 2% 7% 0%;
   }
 }

@@ -1,0 +1,74 @@
+@media (min-width: 800px) {
+  .h_om {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1% 5% 0% 5%;
+  }
+  .img_mig {
+    width: 90%;
+  }
+  .tekst_adh {
+    padding: 25% 0% 0% 0%;
+  }
+
+  .komp li {
+    font-family: eurostile_lt_stddemi_oblique;
+    color: white;
+    font-size: 1.2rem;
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 0% 0% 3% 0%;
+  }
+  .h_udda {
+    padding: 0% 0% 1% 6%;
+  }
+  .udda li {
+    font-family: eurostile_lt_stddemi_oblique;
+    color: white;
+    font-size: 1.2rem;
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0% 0% 3% 6%;
+  }
+  h3 {
+    font-family: eurostile_lt_stddemi_oblique;
+    color: var(--primary);
+    font-size: 3rem;
+    margin: 7% 0% 1% 0%;
+  }
+}
+
+@media (max-width: 800px) {
+  .img_mig {
+    width: 90%;
+  }
+  .tekst_adh {
+    padding: 4% 0% 0% 0%;
+  }
+  .komp li {
+    font-family: eurostile_lt_stddemi_oblique;
+    color: white;
+    font-size: 1.2rem;
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 0% 0% 6% 0%;
+  }
+  .udda li {
+    font-family: eurostile_lt_stddemi_oblique;
+    color: white;
+    font-size: 1.2rem;
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0% 0% 4% 0%;
+  }
+  h3 {
+    font-family: eurostile_lt_stddemi_oblique;
+    color: var(--primary);
+    font-size: 1.5rem;
+    inline-size: 100px;
+  }
+}
